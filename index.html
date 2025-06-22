@@ -7,10 +7,114 @@
     <title>Jefferson Ferreira</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-lg px-4">
+        <a class="navbar-brand" href="#">Jefferson Ferreira</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
     
+    <section class="container my-5">
+        <div class="row align-items-center">
+            
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <div class="rounded-circle overflow-hidden mx-auto" style="width: 200px; height: 200px;">
+                    <img src="./WhatsApp Image 2025-06-22 at 18.21.07.jpeg" class="w-100 h-100"
+                        style="object-fit: cover;" alt="Jefferson Ferreira">
+                </div>
+            </div>
+
+            
+            <div class="col-md-8 text-white text-md-start text-center">
+                <h1 class="display-4 fw-bold">Olá, Eu Sou <span class="text-info">Jefferson Ferreira</span></h1>
+                <p class="lead text-secondary">
+                    Desenvolvedor Fullstack
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section id="about" class="container">
+        <h2 class="section-title">Sobre mim</h2>
+        <p>
+            Sou um desenvolvedor Fullstack com foco em back-end, sempre em busca de aprimorar minhas habilidades
+            técnicas e contribuir com soluções eficientes. Valorizo a colaboração em equipe e estou constantemente
+            evoluindo para entregar os melhores resultados.
+
+            Atualmente, venho me especializando nas tecnologias Java, Spring Boot, Node.js e Angular.
+        </p>
+    </section>
+
+    
+    <section id="skills" class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="card py-4">
+                    <div class="skill-icon">🟤</div>
+                    <p class="mt-2">PHP</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card py-4">
+                    <div class="skill-icon">🟥</div>
+                    <p class="mt-2">Laravel</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card py-4">
+                    <div class="skill-icon">🟢</div>
+                    <p class="mt-2">Node.js</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card py-4">
+                    <div class="skill-icon">🗄️</div>
+                    <p class="mt-2">SQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card p-3">
+                    <h5>Project One</h5>
+                    <p>A REST API using Node.js, Express, and MongoDB for user authentication.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card p-3">
+                    <h5>Project Two</h5>
+                    <p>Order management system with Laravel and MySQL, including admin dashboard.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card p-3">
+                    <h5>Project Three</h5>
+                    <p>Dockerized microservices for a real-time chat app using WebSockets and Redis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
