@@ -30,6 +30,14 @@ body {
   background-color: #1F2937;
   border: none;
   color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
 
@@ -86,67 +94,91 @@ body {
 }
 
 .project-card {
-    
-    overflow: hidden; 
+
+  overflow: hidden;
 }
 
 .project-card .card-img-top {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    height: 200px; 
-    object-fit: cover; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .project-card .card-title {
-    color: #007bff; 
-    font-size: 1.3rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  color: #007bff;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .project-card .card-text {
-    color: #cccccc; 
-    font-size: 0.95rem;
-    flex-grow: 1; 
+  color: #cccccc;
+  font-size: 0.95rem;
+  flex-grow: 1;
 }
 
 .project-techs .badge {
-    font-size: 0.8em;
-    padding: 0.4em 0.8em;
-    margin-bottom: 5px; 
-    border-radius: 4px;
+  font-size: 0.8em;
+  padding: 0.4em 0.8em;
+  margin-bottom: 5px;
+  border-radius: 4px;
 }
 
 
-.badge.bg-primary { background-color: #007bff !important; } 
-.badge.bg-info { background-color: #17a2b8 !important; } 
-.badge.bg-success { background-color: #28a745 !important; } 
-.badge.bg-danger { background-color: #dc3545 !important; } 
-.badge.bg-secondary { background-color: #6c757d !important; } 
-.badge.bg-warning { background-color: #ffc107 !important; } 
-.badge.text-dark { color: #212529 !important; } 
+.badge.bg-primary {
+  background-color: #007bff !important;
+}
+
+.badge.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+.badge.bg-warning {
+  background-color: #ffc107 !important;
+}
+
+.badge.text-dark {
+  color: #212529 !important;
+}
 
 
 
 .project-card .btn {
-    border-width: 1px; 
-    font-size: 0.85rem;
-    padding: 0.4rem 0.8rem;
-    transition: all 0.2s ease-in-out;
+  border-width: 1px;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  transition: all 0.2s ease-in-out;
 }
+
 .project-card .btn-outline-primary {
-    color: #007bff;
-    border-color: #007bff;
+  color: #007bff;
+  border-color: #007bff;
 }
+
 .project-card .btn-outline-primary:hover {
-    background-color: #007bff;
-    color: #ffffff;
+  background-color: #007bff;
+  color: #ffffff;
 }
+
 .project-card .btn-outline-secondary {
-    color: #6c757d;
-    border-color: #6c757d;
+  color: #6c757d;
+  border-color: #6c757d;
 }
+
 .project-card .btn-outline-secondary:hover {
-    background-color: #6c757d;
-    color: #ffffff;
+  background-color: #6c757d;
+  color: #ffffff;
 }
